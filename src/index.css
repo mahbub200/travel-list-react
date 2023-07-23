@@ -1,0 +1,45 @@
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+.app{
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
+}
+.logo{
+  text-transform: uppercase;
+  padding: 3rem;
+  text-align: center;
+  font-family: "PT Sans", Calibri, Tahoma, sans-serif;
+  word-spacing: 1rem;
+  font-weight: 700;
+  font-size: 3rem;
+  background-color: chocolate;
+  margin-top: 0;
+}
+.add-form{
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+
+}
+h3{
+  font-size: 2rem;
+}
+.list{
+  background-color: rgb(222, 241, 111);
+  padding: 4 rem;
+}
+.stats {
+  background-color: #76c7ad;
+  text-align: center;
+  font-weight: 700;
+  padding: 3.2rem 0;
+}
